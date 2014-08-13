@@ -878,12 +878,15 @@ footer {
 	}
 
 	.footer-social .google {
+		position: relative;
 		background-position: -54px 0;
+		left: 45px;
 	}
 
 	.footer-social .vk {
+		position: relative;
 		background-position: 0px 0;
+		left: 45px;
 	}
-
 
 }
