@@ -538,6 +538,372 @@ footer {
 	background-position: 0px 0;
 }
 
+@media screen and (max-width:480px) {
+	html, body {
+		overflow: hidden;
+		height: 2180px;
+		min-width: 0px;
+		max-width: 480px;
+	}
+
+	.wrapper {
+		width: 480px;
+		margin: 0 auto;
+	}	
+
+	header {
+		height: 373px;
+		border-top: 5px solid #33333b;
+	}
+
+	header .wrapper {
+		height: 370px;
+		background-image: -webkit-radial-gradient( 100% 100%, circle farthest-side, rgb(134,139,152) 0%, rgba(95,98,113,0.42) 10%, rgba(57,59,66,0.33) 50%, rgba(57,59,66,0.23) 75%, rgba(19,19,19,0.1) 100%);
+
+	}
+
+	.top-logo {
+		width: 69px;
+		height: 59px;
+		margin-left: 11px;
+		background: #33333b url("../assets/images/top-logo-small.png") 13px 5px no-repeat;
+		background-size: 44px 44px;
+		border-radius: 0 0 18px 18px;
+	}
+
+	.top-social{
+		float: right;
+		margin: 10px 10px 0 0;
+	}
+
+	.top-social a{
+		width: 45px;
+		height: 45px;
+		margin-left: 45px;
+		background-size: 205px 44px;
+		background-position: -4px 0;
+	}
+
+	.top-social .facebook{
+		background-position: -54px 0;
+	}
+
+	.top-social .mail{
+		background-position: -105px 0;
+	}
+
+	.top-social .vk{
+		background-position: -156px 0;
+	}
+
+	.top-text {
+		padding: 105px 0 0 0;
+		width: 480px;
+	}	
+
+	.top-title {
+		position: absolute;
+		top: 80px;
+		height: 165px;
+		width: 100%;
+		margin: 0;
+		padding: 138px 0 0 0;
+		text-align: center;
+		background: url("../assets/images/books.png") 50px 7px  no-repeat;
+		background-size: 69px 69px;
+		background-position: center top;
+		font-size: 30.777px;
+		line-height: 37px;		
+	}
+
+	.top-title br{
+		display: none;
+	}
+	
+	.splitter-text:before,
+	.splitter-text:after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		top: 48%;
+		border-top: 1px solid #36383e;
+		border-bottom: 1px solid #525152;
+	}
+
+	.splitter-text:before {
+		right: 100%;
+		margin-right: 19px;
+	}
+
+	.splitter-text:after {
+		left: 100%;
+		margin-left: 19px;
+	}
+
+	.top-text .splitter {
+		font-size: 18px;
+		margin-top: 20px;
+	}
+
+	.books {
+		display: none;		
+	}
+
+	.books-small {
+		display: block;
+		padding: 55px 53px 0 53px;
+		width: 367px; 
+		height: 62px;
+		text-align: justify;
+		text-indent: 15px;
+		color: #bcbaab;
+		margin-top: 14px;
+	}
+
+	.container {
+		position: relative;
+		width: 480px;
+		height: 1200px;
+		margin: 0 auto;
+		padding-bottom: 264px;
+
+	}
+
+	.download {
+		width: 480px;
+		padding: 15px 0;		
+	}
+
+	.download-text {
+		text-align: center;
+		line-height: 30px;
+		color: #85837d;
+		font-weight: bold;
+	}
+
+	.app-store-full {
+		left: 122px;
+		height: 73px;
+		width: 237px;
+	}
+
+	.app-store-lite {
+		left: 122px;
+		height: 73px;
+		width: 237px;
+	}
+
+	.download .splitter-text {
+		margin-top: 19px;
+		margin-bottom: 20px;
+	}
+
+	.download .splitter-text {
+		font-family: 'm-brody';
+		font-size: 32px;
+		color: rgb(133, 131, 125);
+		text-shadow: 1px 1.732px 0px rgb(250, 250, 250);
+	}
+
+	.download .splitter-text:before,
+	.download .splitter-text:after {
+		border-top-color: #d7d7d7;
+		border-bottom-color: #fafafa;
+		width: 80px;
+	}
+
+	.slider {
+		position: relative;
+		left: 0px;
+		top: 40px;		
+		width: 480px;
+		height: 450px;
+		background-image: url("../assets/images/img-background.jpg");
+		pointer-events: none;		
+		}
+
+	.sliders {
+		position: absolute;
+		pointer-events: auto;	
+	}
+	
+	.all-screen {
+		display: none;
+	}
+	
+	.change-device {
+		display: inline-block;
+		position: relative;
+		padding: 24px 158px;
+	}
+
+	.change-device p,a {
+		text-decoration: none;
+		font-family: MyriadPro;
+		font-size: 32px;
+		color: #525051;
+	}
+	
+	.change-device a:active{
+		text-decoration: underline;
+		color: #bcbaab;
+		font: bold;
+	}
+
+	#tablet {
+		display: none;
+	}
+
+	#phone {
+		top: 80px;
+		left: 125px;
+		width: 230px;
+		height: 485px;
+		background: url("../assets/images/phone.png") no-repeat;
+	}
+
+	.sliders-button {
+		position: absolute;
+		display: block;
+		width: 120px;
+		height: 50px;
+		background-color: inherit;
+		border: none;
+		border-radius: none;
+		box-shadow: none;
+	}
+
+	.sliders-button:before {
+		content: "";
+		position: absolute;
+		left: -120px;
+		top: -205px;
+		width: 30px;
+		height: 50px;
+		background: url("../assets/images/nav-retina.png") no-repeat;
+		background-size: 60px 50px;
+	}
+
+	.sliders-button:active {
+		opacity: 0.3;
+	}
+
+	.sliders-button.right:before {
+		background-position: -30px 0;
+		top: -205px;
+		left: 120px;
+	}
+
+	.conteiner-info {
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 82px;
+	}
+
+	.conteiner-info div {
+		float: left;
+		width: 240px;
+		padding-top: 50px;
+		text-align: center;
+	}
+	.conteiner-info:after{
+		display: none;
+	}
+
+	.conteiner-info div:before {
+		content: "";
+		display: inline-block;
+		width: 68px;
+		height: 54px;
+		background: url("../assets/images/conteiner-info.png") no-repeat;
+		background-size: 340px 54px;
+	}
+
+	.conteiner-info .choice {
+		display: none;
+	}
+
+
+	.conteiner-info-text {
+		display: none;
+	}
+
+	footer {
+		position: relative;
+		height: 350px;
+		width: 480px;
+	   	background: url("../assets/images/img-background.jpg");
+	}
+
+	.footer-help {
+		position: relative;
+		top: 140px;
+		font-size: 23px;
+		margin: 0;
+		width: 480px;
+
+	}
+	.footer-help p {
+		text-align: center;
+	}
+
+	.contact {
+		margin: auto;
+		width: 270px;
+	}
+
+	.contact a {
+		font-size: 21px;
+	}
+
+	.footer-social {
+		position: absolute;
+		font-size: 14px;
+		height: 54px;
+		width: 480px;
+		top: 20px;
+	}
+
+	.footer-social a{
+		font-size: 14px;
+		display: inline-block;
+		float: none;	
+		width: 54px;
+		height: 54px;
+		font-family: MyriadProSemibold;
+		color: #9c9b92;
+		line-height: 1.600;
+		text-align: center;
+		margin-left: 32px;
+		margin-top: 20px;
+		background: #3e4049 url("../assets/images/footer-social.png") no-repeat;
+		background-position: -219px 0;
+		background-size: 271px 54px;
+		box-shadow: 0 3px 0 rgba(4, 7, 11, 0.12);
+		border-radius: 20%;
+		text-decoration: none;
+	}
+
+	.footer-social .facebook {
+		background-position: -163px 0;
+	}
+
+	.footer-social .mail {
+		background-position: -109px 0;
+	}
+
+	.footer-social .google {
+		position: relative;
+		background-position: -54px 0;
+	}
+
+	.footer-social .vk {
+		position: relative;
+		background-position: 0px 0;
+	}
+
+}
+
 @media screen and (max-width:320px) {
 	html, body {
 		overflow: hidden;
@@ -599,17 +965,26 @@ footer {
 	.top-text {
 		padding: 38px 0 0 0;
 		width: 320px;
+		height: 270px;
 	}	
 
 	.top-title {
+		position: relative;
+		top: 0;
+		height: 60px;
 		padding: 6px 0 10px 137px;
+		text-align: left;
 		background: url("../assets/images/books.png") 50px 7px  no-repeat;
 		background-size: 69px 69px;
 		font-size: 30.777px;
 		line-height: 37px;		
 	}
 
-	.splitter-text:before,
+	.top-title br{
+		display: block;
+	}
+
+.splitter-text:before,
 	.splitter-text:after {
 		content: "";
 		position: absolute;
@@ -639,7 +1014,7 @@ footer {
 
 	.books-small {
 		display: block;
-		padding: 25px 0 0 53px;
+		padding: 10px 0 0 53px;
 		width: 218px; 
 		height: 82px;
 		text-align: center;
