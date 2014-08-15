@@ -24,7 +24,7 @@ html, body {
 	margin: 0 auto;
 	padding: 0 auto;
 	min-height: 100%;
-	min-width: 998px;
+	max-width: 998px;
 	color: #525051;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
@@ -538,10 +538,11 @@ footer {
 	background-position: 0px 0;
 }
 
-@media screen and (min-width:1px) and (max-width:320px) {
+@media screen and (max-width:320px) {
 	html, body {
-		height: 1300px;
-		min-width: 320px;
+		overflow: hidden;
+		height: 2700px;
+		max-width: 320px;
 	}
 
 	.wrapper {
@@ -888,5 +889,6 @@ footer {
 		background-position: 0px 0;
 		left: 45px;
 	}
+
 
 }
