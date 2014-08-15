@@ -24,7 +24,7 @@ html, body {
 	margin: 0 auto;
 	padding: 0 auto;
 	min-height: 100%;
-	max-width: 998px;
+	min-width: 998px;
 	color: #525051;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
@@ -542,6 +542,7 @@ footer {
 	html, body {
 		overflow: hidden;
 		height: 2700px;
+		min-width: 0px;
 		max-width: 320px;
 	}
 
